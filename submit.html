@@ -27,7 +27,7 @@
 					<li><a href="index.html" ><img src="images/skills.png" alt="home"> </a> </li>
 					<li><a href="search.html" > SEARCH </a> </li>
 					<li><a href="shop.html" > SHOP</a> </li>
-					<li><a href="submit.php" > SUBMIT </a> </li>
+					<li><a href="submit.html" > SUBMIT </a> </li>
 					<li><a href="#" > ABOUT </a> </li>
 
 				</ul>
