@@ -8,7 +8,7 @@
 
 <?php
 
-$con = mysql_connect("localhost","skills","");
+$con = mysql_connect("sql4.freemysqlhosting.net","sql477777","eG9!tC2%");
 
 if (!$con)
 
@@ -20,7 +20,7 @@ if (!$con)
 
  
 
-mysql_select_db("skills", $con);
+mysql_select_db("sql477777", $con);
 
  
 
