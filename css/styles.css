@@ -1,0 +1,452 @@
+/* Site */
+
+
+html, body {
+	margin: 0 auto;
+}
+
+img {
+	
+} 
+
+::selection {
+    color: #fff; 
+    background: #be1e2d;
+}
+
+footer {
+	color: #BFBFBF;
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: .5px;
+	margin-left: 5px;
+}
+
+/* Header */
+
+#navwrapper {
+
+}
+
+	#navtop {
+		font-family: 'Oswald', sans-serif;
+
+	}
+
+	ul.menu {
+		position: fixed;
+		margin: 0 auto;
+		top: 0;
+		background-color: #fff;
+		padding-top: .5em;
+		width: 100% !important;
+		height: 60px;
+		box-shadow: 2px 2px 2px rgba(0,0,0,.3);
+	}
+
+	ul.menu li {
+		display: inline ;
+		padding-left: 2em;
+	}
+
+		ul.menu li a {
+			text-decoration: none;
+			color: #142f53;
+			font-weight: bolder;
+			font-size: 15pt;
+		}
+
+			ul.menu li a:hover {
+			text-decoration: none;
+			opacity: .8;
+		}
+
+/***** HOME PAGE *****/
+
+/* Main */
+
+#main {
+	height: 800px;
+}
+	#toptext {
+		font-family: 'Oswald', sans-serif;
+		font-size: 40pt;
+		color: #be1e2d;
+		float: left;
+		margin-top: 5%;
+		margin-left: 25px;
+	}
+
+	#bottomtext {
+		margin-top: -150px;
+	}
+
+		p.divide {
+			margin-left: 125px;
+			color: #be1e2d;
+			font-family: 'Oswald', sans-serif;
+			font-size: 20pt;
+		}
+
+		h2.look {
+			font-family: 'Source Sans Pro', sans-serif;
+			border: 4px solid #142f53;
+			border-radius: 10px;
+			width: 250px;
+			text-align: center;
+			padding: 2px;
+			margin-left: 25px;
+		}
+
+			h2.look a {
+				text-decoration: none;
+				color: #142f53;
+			}
+
+			h2.look a:hover {
+				opacity: .8;
+			}
+
+	#medal {
+		margin-left: 40%;
+	}
+
+/* Chapter */
+
+#chapter {
+	background-color: #142f53;
+	height: 460px;
+}
+
+	#preview {
+
+	}
+
+	#chapterright {
+		max-width: 250px;
+		float: right;
+		margin-right: 450px;
+		margin-top: -400px;
+	}
+
+		h2.heading {
+			color: #fff;
+			font-family: 'Oswald', sans-serif;
+			font-size: 20pt;
+			letter-spacing: 1px;
+		}
+
+		p.chaptertext {
+			font-family: 'Source Sans Pro', sans-serif;
+			color: #fff;
+			font-weight: lighter;
+			font-size: 17pt;
+		}
+
+		h2.buy {
+			background-color: #fff;
+			border-radius: 10px;
+			text-align: center;
+			width: 100px;
+		}
+
+			h2.buy a {
+				text-decoration: none;
+				font-family: 'Oswald', sans-serif;
+				font-weight: bolder;
+				font-size: 20pt;
+				color: #be1e2d;
+			}
+
+/* Info */
+
+#info {
+	font-size: 16pt;
+	margin-left: 45px;
+}
+
+	#inforight {
+		font-family: 'Source Sans Pro', sans-serif;
+		max-width: 500px;
+		float: right;
+		margin-right: 250px;
+		margin-top: 20px;
+	}
+
+		h1.office {
+			color: #142f53;
+			font-size: 15pt;
+		}
+
+		ul.list li {
+			list-style-type: none;
+			margin-left: 0;
+		}
+
+	#infoleft {
+		max-width: 300px;
+		display: inline-block;
+	}
+
+
+
+/***** SUBMIT PAGE *****/
+
+#fill {
+	margin-top: 100px;
+}
+
+	#sub {
+	
+	}
+
+		#info-form {
+			margin-left: 32%;
+			display: inline-block;
+			max-width: 620px;
+		}
+
+		.oc:focus {
+    		outline:solid 1px #be1e2d;
+		}
+
+			#nombre {
+				border: 1px solid gray;
+				width: 600px;
+				height: 40px;
+				font-size: 15pt;
+			}
+
+			#numero {
+				border: 1px solid gray;
+				width: 200px;
+				height: 40px;
+				font-size: 15pt;
+			}
+
+			#grado {
+				border: 1px solid gray;
+				width: 200px;
+				height: 40px;
+				font-size: 10pt;
+			}
+
+			#camisa {
+				border: 1px solid gray;
+				width: 190px;
+				height: 40px;
+				font-size: 10pt;
+			}
+
+			#programa {
+				border: 1px solid gray;
+				width: 250px;
+				height: 40px;
+				font-size: 10pt;
+			}
+
+			#sexo {
+				border: 1px solid gray;
+				width: 100px;
+				height: 40px;
+				font-size: 10pt;
+			}
+
+			#chaqueta {
+				border: 1px solid gray;
+				width: 245px;
+				height: 40px;
+				font-size: 10pt;
+			}
+
+			#event {
+				border: 1px solid gray;
+				width: 600px;
+				height: 40px;
+				font-size: 10pt;
+			}
+
+			#leadcomp {
+				border: 1px solid gray;
+				width: 600px;
+				height: 40px;
+				font-size: 10pt;
+			}
+		#done {
+			background-color: #142f53;
+			color: #fff;
+			font-size: 20pt;
+			text-align: center;
+			margin-left: 90px;
+			border: 0px solid #fff;
+			border-radius: 5px;
+			width: 200px;
+			height: 40px;
+		}
+
+
+	h1.lead {
+		text-align: center;
+		border-bottom: 2px solid #be1e2d;
+		font-family: 'Source Sans Pro', sans-serif;
+		color: #142f53;
+	}
+
+
+/***** SEARCH PAGE *****/
+
+
+#locate {
+	margin-top: 100px;
+}
+
+	#sub2 {
+	
+	}
+
+		#search-form {
+			margin-left: 32%;
+		}
+
+			#search-input {
+				border: 2px solid gray;
+				width: 400px;
+				height: 40px;
+				font-size: 15pt;
+			}
+
+			#search-button {
+				background-color: #142f53;
+				color: #fff;
+				font-size: 20pt;
+				text-align: center;
+				margin-left: 90px;
+				border: 0px solid #fff;
+				border-radius: 5px;
+				width: 200px;
+				height: 40px;
+			}
+
+	h1.lead {
+		text-align: center;
+		border-bottom: 2px solid #be1e2d;
+		font-family: 'Source Sans Pro', sans-serif;
+		color: #142f53;
+	}
+
+/***** SHOP PAGE *****/
+
+#sell {
+	margin-top: 100px;
+}
+
+	#sub3 {
+	
+	}
+
+		div.merch {
+			
+		}
+
+			ul.buy li {
+				display: inline;
+				padding-left: 25px;
+			}
+
+				ul.buy li a:hover {
+					opacity: .9;
+				}
+
+	h1.lead2 {
+		text-align: center;
+		border-bottom: 2px solid #be1e2d;
+		font-family: 'Source Sans Pro', sans-serif;
+		color: #142f53;
+	}
+
+/***** CLICK -> SHIRT PAGE *****/
+
+#view {
+	margin-top: 100px;
+}
+	
+	#contain {
+
+	}
+
+
+/***** EASY NAV TOP -> SHOP -> SHIRT *****/ 
+
+	#navs {
+
+	}
+
+		ul.shopnav {
+
+		}
+
+			ul.shopnav li {
+				display: inline;
+				text-decoration: none;
+				font-family: 'Source Sans Pro', sans-serif;
+			}
+
+			a {
+				text-decoration: none;
+				color: #111;
+			}
+
+				a:visited {
+					text-decoration: none;
+					color: #111;
+				}
+
+				a:hover {
+					opacity: .7;
+				}
+
+/***** END EASY NAV *****/
+
+		.icon {
+
+		}
+
+		#description {
+			max-width: 500px;
+			float: right;
+			margin-right: 400px;
+		}
+
+			h1.shoptitle {
+				text-align: left;
+				border-bottom: 2px solid #be1e2d;
+				font-family: 'Source Sans Pro', sans-serif;
+				color: #142f53;
+			}
+
+			p.brief {
+				font-family: 'Source Sans Pro', sans-serif;
+			}
+
+		#item-form {
+
+		}
+
+			h2.picks {
+				font-size: 11pt;
+				font-family: 'Source Sans Pro', sans-serif;
+				color: #111;
+			}
+
+			#add {
+				background-color: #142f53;
+				color: #fff;
+				font-size: 12pt;
+				text-align: center;
+				border: 0px solid #fff;
+				border-radius: 5px;
+				width: 150px;
+				height: 40px;
+			}
+
+
+
